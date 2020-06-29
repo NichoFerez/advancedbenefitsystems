@@ -1,0 +1,191 @@
+
+ img{
+position:relative;
+	height:150px;
+	width:150px;
+}
+
+.back{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color:white;
+	position:absolute;
+margin-bottom:100px;
+margin-left:850px;
+	margin-top:30px;
+	height:60px;
+	width:200px;
+	text-align:center;
+	border: 1px solid white;
+
+}
+
+
+
+.back a{
+	color:white;
+}
+
+.back:hover{
+	background-color:white;
+	color:black;
+}
+
+.back:hover a{
+	color:black;
+}
+
+.bannerfive{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	margin-top:90px;
+	margin-left:600px;
+}
+
+
+
+.header{position:sticky;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+background-color:white;
+z-index:1;
+top:0;
+box-shadow: 1px 5px 30px black;
+margin-left:-10px;
+margin-right:-10px;
+margin-top:-10px;
+
+
+}
+
+.bannerone{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+
+	margin-left:725px;
+margin-top:110px
+
+}
+.bannertwo{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+margin-top:90px;
+	margin-left:1038px;
+
+
+
+}
+
+.bannerseven{
+font-family: 'Roboto', sans-serif;
+	font-size:13px;
+	position:absolute;
+text-align:right;
+color:grey;
+opacity:70%;
+	margin-left:1160px;
+margin-top:10px
+}
+
+
+.bannereight{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+
+	margin-left:1195px;
+margin-top:90px
+}
+.bannerthree{
+
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	margin-left:890px;
+	margin-bottom:0px;
+	margin-top:90px;
+	bottom:0;
+
+}
+.headergraphic{
+	
+	margin-right:-30px;
+
+}
+ img{
+position:relative;
+	height:150px;
+	width:150px;
+}
+
+
+.bannerfour{
+	height:150px;
+	width:300px;
+}
+
+.bannerfour img{
+	position:absolute;
+	left:0;
+	margin-left:30px;
+	height:150px;
+	width:300px;
+}
+
+
+
+.bannersix{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	margin-left:1380px;
+	margin-bottom:0px;
+	margin-top:90px;
+	bottom:0;
+}
+
+a{
+	text-decoration:none;
+	color:#36465e;
+}
+
+
+.cancer{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+position: relative;
+
+padding-bottom:50px;
+padding-right:500px;
+			margin-top:100px;
+					z-index:-5;
+					margin-left:80px;
+			margin-right:100px;
+			color:white;
+}
+
+.cancer p, li{
+	font-weight:lighter;
+}
+
+.cancer img{
+	position:absolute;
+	margin-left:1160px;
+margin-top:-680px;
+	height:16em;
+	width:16em;
+	filter: drop-shadow(40px 40px 40px orange);
+}
+
+body{
+	background-color:#394854;
+}
+
+

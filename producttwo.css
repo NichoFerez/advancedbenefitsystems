@@ -1,0 +1,457 @@
+.parttwo{
+background-color:#394854;
+margin-left:-10px;
+margin-right:-10px;
+position:relative;
+z-index:-4;
+}
+
+.parttwo p, li{
+	font-weight:lighter;
+}
+
+
+body{
+	background-color:#d4d4d4;
+}
+
+.header{position:sticky;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+background-color:white;
+z-index:1;
+top:0;
+box-shadow: 1px 5px 30px black;
+margin-left:-10px;
+margin-right:-10px;
+margin-top:-10px;
+
+
+}
+ img{
+position:relative;
+	height:150px;
+	width:150px;
+}
+
+
+
+.bannerone{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+
+	margin-left:900px;
+margin-top:110px
+
+}
+.bannertwo{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+margin-top:90px;
+	margin-left:1100px;
+}
+
+
+.bannerfour{
+	height:150px;
+	width:300px;
+}
+
+.bannerfour img{
+	position:absolute;
+	left:0;
+	margin-left:30px;
+	height:150px;
+	width:300px;
+}
+
+.bannerfive{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	margin-top:90px;
+	margin-left:700px;
+}
+
+
+.bannerthree{
+
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	margin-left:1350px;
+	margin-bottom:0px;
+	margin-top:90px;
+	bottom:0;
+
+}
+.headergraphic{
+
+	margin-right:-30px;
+
+}
+
+
+
+.wheel{
+	position:absolute;
+z-index:1;
+	margin-left:130px;
+	margin-top:150px;
+
+}
+.productdescription{
+	position:absolute;
+
+	font-weight:lighter;
+	color:white;
+	left:100px;
+	height:100px;
+	width:640px;
+	left:20px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+
+.productdescription p{
+	font-size:20px;
+
+}
+
+.productdescription h1{
+	font-size:50px;
+}
+.productdescription{
+	font-family: 'Roboto', sans-serif;
+
+}
+.productsone{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+margin-left:610px;
+	width:600px;
+	margin-right:400px;
+	margin-top:225px;
+	display:none;
+;
+}
+
+.productstwo{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	
+	width:600px;
+	margin-right:398px;
+	margin-top:90px;
+	display:none;
+	margin-left:860px;
+}
+
+.productsthree{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+	width:600px;
+	margin-right:400px;
+	margin-top:-200px;
+	display:none;
+	margin-left:860px;
+}
+
+.productsfour{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+	
+	width:600px;
+	margin-right:400px;
+	margin-top:90px;
+	display:none;
+	margin-left:350px;
+}
+
+.productsfive{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+	width:600px;
+	margin-right:400px;
+	margin-top:-195px;
+	display:none;
+	margin-left:330px;
+}
+
+.productssix{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	position:absolute;
+
+	width:600px;
+	margin-right:400px;
+	margin-top:-360px;
+	display:none;
+	margin-left:610px;
+}
+
+.show{
+	background-color:#d4d4d4;
+	height:170px;
+	position:absolute;
+	
+	width:650px;
+padding-left:10px;
+	border-radius:25px;
+	margin-left:20px;
+	margin-top:130px;
+}
+
+.parent {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border: 1px solid white;
+	border-radius: 50%;
+	float:right;
+	margin-right:200px;
+	margin-top:50px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+}
+
+.childone {
+	position: absolute;
+	z-index:;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+	top: -55px;  
+	left: 230px;
+	animation-name:"shadow";
+	animation-duration:1s linear; 
+  }
+
+.childone img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+
+.childone :hover{
+filter: drop-shadow(0px 0px 4px orange);
+
+}
+
+.childone:hover > .productsone{
+	display:block;
+}
+
+
+
+
+
+
+
+.childtwo {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+	top: 80px;  
+	left: -20px;   }
+
+.childtwo img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+.childtwo :hover{
+filter: drop-shadow(0px 0px 4px orange);
+}
+
+.childtwo:hover > .productstwo{
+	display:block;
+}
+
+.childthree {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+	top: 370px;  
+	left: -20px;   }
+
+.childthree img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+.childthree :hover{
+filter: drop-shadow(0px 0px 4px orange);
+
+}
+
+.childthree:hover > .productsthree{
+	display:block;
+}
+
+.childfour {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+	top: 80px;  
+	left: 490px;   }
+
+.childfour img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+.childfour :hover{
+filter: drop-shadow(0px 0px 4px orange);
+}
+
+.childfour:hover > .productsfour{
+	display:block;
+}
+
+.childfive {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition transform 0.7s linear;
+	top: 365px;  
+	left: 510px;   }
+
+.childfive img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+.childfive :hover{
+filter: drop-shadow(0px 0px 4px orange);
+}
+
+.childfive:hover > .productsfive{
+	display:block;
+}
+
+.display{
+height:500px;
+border-radius:25px;
+width:700px;
+position:absolute;
+
+margin-left:930px;
+	z-index:-3;
+	background-color:#b2997b;
+
+
+}
+
+.contactus{
+	color:#939393;
+	position:relative;
+	margin-left:-8px;
+	margin-right:-10px;
+	padding-top:50px;
+		padding-bottom:50px;
+		padding-right:50px;
+text-align:right;
+
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	background-color:#3c3d3f;
+}
+
+.contactus p{
+	font-weight:lighter;
+}
+
+
+
+.childsix {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	transform: rotate(0deg);
+	transition: transform 0.7s linear;
+	top: 530px;  
+	left: 230px;   }
+
+.childsix img {
+height:400%;
+width:400%;
+	border-radius: 50%;
+
+}
+
+.childsix :hover{
+filter: drop-shadow(0px 0px 4px orange);
+}
+
+.childsix:hover > .productssix{
+	display:block;
+}
+
+.boxone{
+	background-color:transparent;
+	background-color: #969696;
+height:1000px;
+width:1000px;
+margin-top:-30px;
+margin-left:660px;
+	z-index:-4;
+position:absolute;
+	border-radius:50%;
+
+}
+
+.partone{
+	position:absolute;
+
+	margin-left:-15px;
+	z-index:-3;
+
+}
+
+.whatsright{
+font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	text-align:center;
+	background-color:#d4d4d4;
+		box-shadow: 1px 20px 30px #222d3d;
+position: absolute;
+	margin-left:-10px;
+	padding-bottom:50px;
+	margin-bottom:100px;
+			z-index:-1;
+	
+			
+			color:white;
+}
